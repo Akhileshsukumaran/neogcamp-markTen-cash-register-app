@@ -8,8 +8,44 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="div-content">
+        <h1 class="h1-header">Cash Register Manager</h1>
+        <p class="description">
+            Enter the bill amount and cash given by the customer and know the minimum number of notes to return.
+        </p>
+        <label for="bill-amount">Bill Amount: </label>
+        <input type="text" id="bill-amount" />
+        <label for="cash-given">Cash Given: </label>
+        <input type="text" id="cash-given">
+        <button id="btn-check">Check</button>
+        <p id="error-message"></p>
+        <table class="tb-change-table">
+            <caption>Return Change</caption>
+            <tr>
+                <th>No:of Notes</th>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+                <td class="no-of-notes">0</td>
+            </tr>
+            <tr>
+                <th>Note</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
     
 
-    <script src="app.js"></script>
+    
+<script src="app.js"></script>
 </body>
 </html>

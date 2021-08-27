@@ -1,6 +1,69 @@
+
+/* body{
+    background-color: #7C83FD;
+    display:flex; 
+    justify-content:center;
+    min-height:80vh;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root{
+    --primary-color : #7C83FD;
+    --secondary-color : #96BAFF;
+}
+
+h1{
+    color: #141E61;
+}
+
+body {
+    background-color: var(--primary-color);
+    display:flex; 
+    justify-content:center;
+    min-height:80vh;
+    /* max-width: max-content;
+    margin: auto; */
+    }
+
 .div-content{
     display: flex;
     flex-direction: column;
-    width: 25vw;
-    
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    font-family: 'Lobster', cursive;
+    font-size: large;
+}
+
+#error-message{
+    color: red;
+}
+
+#bill-amount, #cash-given, label{
+    margin: 1rem;
+}
+
+#bill-amount, #cash-given {
+    border-radius: 25px;
+    padding: 0.5rem;
+    border-style: solid;
+    border-color: #754436;
+}
+
+.tb-change-table, tr, td,caption{
+    padding: .5rem;
+}
+
+#btn-next, #btn-check{
+    border-radius: 12px;
+    border-style: none;
+    padding: 0.5rem 1rem;
+    background-color: #141E61;
+    color: snow;
+}
+
+label, caption{
+    color: #141E61;
+    font-weight: bold;
 }
